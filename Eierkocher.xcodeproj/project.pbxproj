@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D384CF2790BA6500709D1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384CE2790BA6500709D1D /* AppDelegate.swift */; };
+		E6D384D12790BA6500709D1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384D02790BA6500709D1D /* SceneDelegate.swift */; };
+		E6D384D32790BA6500709D1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384D22790BA6500709D1D /* ViewController.swift */; };
+		E6D384D62790BA6500709D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D384D42790BA6500709D1D /* Main.storyboard */; };
+		E6D384D82790BA6700709D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D384D72790BA6700709D1D /* Assets.xcassets */; };
+		E6D384DB2790BA6700709D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D384D92790BA6700709D1D /* LaunchScreen.storyboard */; };
+		E6D384E62790BA6800709D1D /* EierkocherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384E52790BA6800709D1D /* EierkocherTests.swift */; };
+		E6D384F02790BA6800709D1D /* EierkocherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384EF2790BA6800709D1D /* EierkocherUITests.swift */; };
+		E6D384F22790BA6800709D1D /* EierkocherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D384F12790BA6800709D1D /* EierkocherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6D384E22790BA6800709D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D384C32790BA6500709D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D384CA2790BA6500709D1D;
+			remoteInfo = Eierkocher;
+		};
+		E6D384EC2790BA6800709D1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6D384C32790BA6500709D1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6D384CA2790BA6500709D1D;
+			remoteInfo = Eierkocher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6D384CB2790BA6500709D1D /* Eierkocher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eierkocher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D384CE2790BA6500709D1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6D384D02790BA6500709D1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E6D384D22790BA6500709D1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6D384D52790BA6500709D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6D384D72790BA6700709D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6D384DA2790BA6700709D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6D384DC2790BA6700709D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D384E12790BA6800709D1D /* EierkocherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EierkocherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D384E52790BA6800709D1D /* EierkocherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EierkocherTests.swift; sourceTree = "<group>"; };
+		E6D384EB2790BA6800709D1D /* EierkocherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EierkocherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6D384EF2790BA6800709D1D /* EierkocherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EierkocherUITests.swift; sourceTree = "<group>"; };
+		E6D384F12790BA6800709D1D /* EierkocherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EierkocherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6D384C82790BA6500709D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384DE2790BA6800709D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384E82790BA6800709D1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6D384C22790BA6500709D1D = {
+			isa = PBXGroup;
+			children = (
+				E6D384CD2790BA6500709D1D /* Eierkocher */,
+				E6D384E42790BA6800709D1D /* EierkocherTests */,
+				E6D384EE2790BA6800709D1D /* EierkocherUITests */,
+				E6D384CC2790BA6500709D1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6D384CC2790BA6500709D1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6D384CB2790BA6500709D1D /* Eierkocher.app */,
+				E6D384E12790BA6800709D1D /* EierkocherTests.xctest */,
+				E6D384EB2790BA6800709D1D /* EierkocherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6D384CD2790BA6500709D1D /* Eierkocher */ = {
+			isa = PBXGroup;
+			children = (
+				E6D384CE2790BA6500709D1D /* AppDelegate.swift */,
+				E6D384D02790BA6500709D1D /* SceneDelegate.swift */,
+				E6D384D22790BA6500709D1D /* ViewController.swift */,
+				E6D384D42790BA6500709D1D /* Main.storyboard */,
+				E6D384D72790BA6700709D1D /* Assets.xcassets */,
+				E6D384D92790BA6700709D1D /* LaunchScreen.storyboard */,
+				E6D384DC2790BA6700709D1D /* Info.plist */,
+			);
+			path = Eierkocher;
+			sourceTree = "<group>";
+		};
+		E6D384E42790BA6800709D1D /* EierkocherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D384E52790BA6800709D1D /* EierkocherTests.swift */,
+			);
+			path = EierkocherTests;
+			sourceTree = "<group>";
+		};
+		E6D384EE2790BA6800709D1D /* EierkocherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6D384EF2790BA6800709D1D /* EierkocherUITests.swift */,
+				E6D384F12790BA6800709D1D /* EierkocherUITestsLaunchTests.swift */,
+			);
+			path = EierkocherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6D384CA2790BA6500709D1D /* Eierkocher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D384F52790BA6800709D1D /* Build configuration list for PBXNativeTarget "Eierkocher" */;
+			buildPhases = (
+				E6D384C72790BA6500709D1D /* Sources */,
+				E6D384C82790BA6500709D1D /* Frameworks */,
+				E6D384C92790BA6500709D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eierkocher;
+			productName = Eierkocher;
+			productReference = E6D384CB2790BA6500709D1D /* Eierkocher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6D384E02790BA6800709D1D /* EierkocherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D384F82790BA6800709D1D /* Build configuration list for PBXNativeTarget "EierkocherTests" */;
+			buildPhases = (
+				E6D384DD2790BA6800709D1D /* Sources */,
+				E6D384DE2790BA6800709D1D /* Frameworks */,
+				E6D384DF2790BA6800709D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D384E32790BA6800709D1D /* PBXTargetDependency */,
+			);
+			name = EierkocherTests;
+			productName = EierkocherTests;
+			productReference = E6D384E12790BA6800709D1D /* EierkocherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6D384EA2790BA6800709D1D /* EierkocherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6D384FB2790BA6800709D1D /* Build configuration list for PBXNativeTarget "EierkocherUITests" */;
+			buildPhases = (
+				E6D384E72790BA6800709D1D /* Sources */,
+				E6D384E82790BA6800709D1D /* Frameworks */,
+				E6D384E92790BA6800709D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6D384ED2790BA6800709D1D /* PBXTargetDependency */,
+			);
+			name = EierkocherUITests;
+			productName = EierkocherUITests;
+			productReference = E6D384EB2790BA6800709D1D /* EierkocherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6D384C32790BA6500709D1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E6D384CA2790BA6500709D1D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E6D384E02790BA6800709D1D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E6D384CA2790BA6500709D1D;
+					};
+					E6D384EA2790BA6800709D1D = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E6D384CA2790BA6500709D1D;
+					};
+				};
+			};
+			buildConfigurationList = E6D384C62790BA6500709D1D /* Build configuration list for PBXProject "Eierkocher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6D384C22790BA6500709D1D;
+			productRefGroup = E6D384CC2790BA6500709D1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6D384CA2790BA6500709D1D /* Eierkocher */,
+				E6D384E02790BA6800709D1D /* EierkocherTests */,
+				E6D384EA2790BA6800709D1D /* EierkocherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6D384C92790BA6500709D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D384DB2790BA6700709D1D /* LaunchScreen.storyboard in Resources */,
+				E6D384D82790BA6700709D1D /* Assets.xcassets in Resources */,
+				E6D384D62790BA6500709D1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384DF2790BA6800709D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384E92790BA6800709D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6D384C72790BA6500709D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D384D32790BA6500709D1D /* ViewController.swift in Sources */,
+				E6D384CF2790BA6500709D1D /* AppDelegate.swift in Sources */,
+				E6D384D12790BA6500709D1D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384DD2790BA6800709D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D384E62790BA6800709D1D /* EierkocherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6D384E72790BA6800709D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6D384F02790BA6800709D1D /* EierkocherUITests.swift in Sources */,
+				E6D384F22790BA6800709D1D /* EierkocherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6D384E32790BA6800709D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D384CA2790BA6500709D1D /* Eierkocher */;
+			targetProxy = E6D384E22790BA6800709D1D /* PBXContainerItemProxy */;
+		};
+		E6D384ED2790BA6800709D1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6D384CA2790BA6500709D1D /* Eierkocher */;
+			targetProxy = E6D384EC2790BA6800709D1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6D384D42790BA6500709D1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D384D52790BA6500709D1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6D384D92790BA6700709D1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6D384DA2790BA6700709D1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6D384F32790BA6800709D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6D384F42790BA6800709D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6D384F62790BA6800709D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eierkocher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.Eierkocher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6D384F72790BA6800709D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eierkocher/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.Eierkocher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6D384F92790BA6800709D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.EierkocherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eierkocher.app/Eierkocher";
+			};
+			name = Debug;
+		};
+		E6D384FA2790BA6800709D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.EierkocherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eierkocher.app/Eierkocher";
+			};
+			name = Release;
+		};
+		E6D384FC2790BA6800709D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.EierkocherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eierkocher;
+			};
+			name = Debug;
+		};
+		E6D384FD2790BA6800709D1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82U95W7D95;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Company.EierkocherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Eierkocher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6D384C62790BA6500709D1D /* Build configuration list for PBXProject "Eierkocher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D384F32790BA6800709D1D /* Debug */,
+				E6D384F42790BA6800709D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D384F52790BA6800709D1D /* Build configuration list for PBXNativeTarget "Eierkocher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D384F62790BA6800709D1D /* Debug */,
+				E6D384F72790BA6800709D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D384F82790BA6800709D1D /* Build configuration list for PBXNativeTarget "EierkocherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D384F92790BA6800709D1D /* Debug */,
+				E6D384FA2790BA6800709D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D384FB2790BA6800709D1D /* Build configuration list for PBXNativeTarget "EierkocherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6D384FC2790BA6800709D1D /* Debug */,
+				E6D384FD2790BA6800709D1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6D384C32790BA6500709D1D /* Project object */;
+}
